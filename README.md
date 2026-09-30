@@ -4,7 +4,7 @@
 
 ## Overview
 
-This notebook provides a qualitative exploration of how weak image-level artefacts affect the interpretability of a medical vision-language model (VLM).
+This notebook provides a brief qualitative exploration of how weak image-level artefacts affect the interpretability of a medical vision-language model (VLM).
 
 The investigation was motivated by [*Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding*](https://doi.org/10.48550/arXiv.2505.15123), which introduces **Disease-Aware Prompting (DAP)** for weakly supervised medical visual grounding.
 
@@ -12,7 +12,7 @@ Recent work has demonstrated that medical VLMs can be vulnerable to noise and im
 
 ## Motivation
 
-DAP uses an interpretability approach, $\Phi$, to obtain visual grounding information. The DAP paper already provides evidence that the method remains useful when the underlying visual grounding is imperfect. For example:
+DAP uses an interpretability approach, $\Phi$, to use as a basis for their disease aware prompting for visual grounding. The DAP paper already provides evidence that the method remains useful when the underlying interpretability method is imperfect. For example:
 
 * Appendix E investigates the robustness of DAP to a flawed $\Phi$.
 * Fig. 14 in Appendix A shows that DAP continues to outperform the baselines even when $\Phi$ performs poorly (Dice < 0.3).
