@@ -63,7 +63,7 @@ Several aspects of this example are interesting:
 - The model performs poorly overall.
 - A highly salient region corresponds to a hiatal hernia, and this region dominates the interpretability map for other diseases.
 
-![Figure 4](figures/101354916913099012081924155376991837012_81ss6/interpret_map_multiple.png)
+![Figure 4](figures/101354916913099012081924155376991837012_81ss6/interpret_map_all_diseases.png)
 
 *Figure 4:* Interpretability map for all ground truth findings
 
@@ -76,7 +76,7 @@ Several aspects of this example are interesting:
 - The overall Dice scores are poor.
 - A highly salient region corresponding to retrocardiac atelectasis appears across the interpretability maps for all findings.
 
-[Figure 5](figures/101126299944644944835561376898203180176_2_o5vjuy/interpret_map_all_diseases.png)
+![Figure 5](figures/101126299944644944835561376898203180176_2_o5vjuy/interpret_map_all_diseases.png)
 
 *Figure 5:* Interpretability map for all ground truth findings
 
