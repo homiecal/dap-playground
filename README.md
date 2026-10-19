@@ -63,7 +63,7 @@ Several aspects of this example are interesting:
 - The model performs poorly overall.
 - A highly salient region corresponds to a hiatal hernia, and this region dominates the interpretability map for other diseases.
 
-![Figure 4](figures/101354916913099012081924155376991837012_81ss6/interpret_map_all_diseases.png)
+![Figure 4](figures/101354916913099012081924155376991837012_81ss65/interpret_map_all_diseases.png)
 
 *Figure 4:* Interpretability map for all ground truth findings
 
