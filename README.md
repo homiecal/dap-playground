@@ -31,7 +31,7 @@ A quick experiment was conducted using a subset of the [PadChest-GR](https://ai.
 
 ### Example 1: Poor localisation
 
-`image_id=101120174235725780234709445792984239056_2oib6d.png`
+`image_id=101354916913099012081924155376991837012_81ss65.png`
 
 **Finding:** Left pleural effusion.
 
@@ -47,14 +47,13 @@ Several aspects of this example are interesting:
 - **Limited response to changes in the text:** The interpretability map changes very little when the text description changes. For example, using morphological descriptions of the disease does not improve localisation.
 - **High confidence despite poor grounding:** CheXzero correctly predicts the original text description with approximately 99% confidence, based on scaled logits passed through softmax. However, the interpretability map does not correctly localise the disease.
 
-
-![Figure 3](figures/101120174235725780234709445792984239056_2oib6d/interpret_map_all_diseases.png)
+![Figure 3](figures\101354916913099012081924155376991837012_81ss65\interpret_map_multiple.png)
 
 *Figure 3:* Interpretability map for ground truth "Left pleural effusion" and other textual descriptions ("right pleural effusion" to align with interpret map, morphological description of pleural effusion, unrelated anatomical references) note the minimal change across the interpretability map
 
 ### Example 2: Multiple GT diseases (5), interpretability map dominated by single disease region
 
-`image_id=101354916913099012081924155376991837012_81ss65.png`
+`image_id=101120174235725780234709445792984239056_2oib6d.png`
 
 **Findings:** 7 disease findings.
 
@@ -63,7 +62,7 @@ Several aspects of this example are interesting:
 - The model performs poorly overall.
 - A highly salient region corresponds to a hiatal hernia, and this region dominates the interpretability map for other diseases.
 
-![Figure 4](figures/101354916913099012081924155376991837012_81ss65/interpret_map_all_diseases.png)
+![Figure 4](figures/101120174235725780234709445792984239056_2oib6d/interpret_map_all_diseases.png)
 
 *Figure 4:* Interpretability map for all ground truth findings
 
