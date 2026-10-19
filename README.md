@@ -47,7 +47,7 @@ Several aspects of this example are interesting:
 - **Limited response to changes in the text:** The interpretability map changes very little when the text description changes. For example, using morphological descriptions of the disease does not improve localisation.
 - **High confidence despite poor grounding:** CheXzero correctly predicts the original text description with approximately 99% confidence, based on scaled logits passed through softmax. However, the interpretability map does not correctly localise the disease.
 
-![Figure 3](figures\101354916913099012081924155376991837012_81ss65\interpret_map_multiple.png)
+![Figure 3](figures/101354916913099012081924155376991837012_81ss65/interpret_map_multiple.png)
 
 *Figure 3:* Interpretability map for ground truth "Left pleural effusion" and other textual descriptions ("right pleural effusion" to align with interpret map, morphological description of pleural effusion, unrelated anatomical references) note the minimal change across the interpretability map
 
