@@ -6,7 +6,7 @@
 
 Weakly supervised grounding methods can face challenges when images contain multiple diseases or when disease regions are small.
 
-The DAP [1] paper explores approaches to improving weakly supervised medical visual grounding, motivating further investigation into these challenging scenarios. This mini exploration investigates how grounding performance varies with the number of diseases present and the size of disease regions, using a subset of the PadChest-GR dataset. 
+The investigation was motivated by [[1]](https://doi.org/10.48550/arXiv.2505.15123), which introduces Disease-Aware Prompting (DAP) for weakly supervised medical visual grounding. This mini exploration investigates how grounding performance varies with the number of diseases present and the size of disease regions, using a subset of the PadChest-GR dataset. 
 
 [1] Huy, Ta Duc, Duy Anh Huynh, Yutong Xie, et al. “Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding.” arXiv:2505.15123. Preprint, arXiv, August 24, 2025. [https://doi.org/10.48550/arXiv.2505.15123](https://doi.org/10.48550/arXiv.2505.15123).
 
