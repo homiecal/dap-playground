@@ -1,5 +1,7 @@
 # Weakly Supervised Grounding: Initial Experiments
 
+**Code (all contained in a single notebook using Colab GPU): [multiple-disease-impact-on-interpretability.ipynb](multiple-disease-impact-on-interpretability.ipynb)**
+
 ## 1. Background and Motivation
 
 Weakly supervised grounding methods can struggle when an image contains multiple diseases or when the disease regions are small.
