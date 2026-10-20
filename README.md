@@ -4,7 +4,7 @@
 
 Weakly supervised grounding methods can struggle when an image contains multiple diseases or when the disease regions are small.
 
-The [DAP](https://arxiv.org/abs/2505.15123) [1] paper highlights these limitations, but it does not clearly establish whether its method improves performance on these specific issues. It would be interesting to investigate whether DAP improves grounding when there are multiple diseases or when the disease regions are small.
+The [DAP](https://arxiv.org/abs/2505.15123) [1] paper highlights these limitations, but it does not clearly establish whether its method improves performance on these specific issues. It would be interesting to investigate whether DAP improves grounding when there are multiple diseases or when the disease regions are small - and what other methods could be explored. **This is a preliminary, mini-experiment analysing a subset of data from padchest-gr**.
 
 [1] Huy, Ta Duc, Duy Anh Huynh, Yutong Xie, et al. “Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding.” arXiv:2505.15123. Preprint, arXiv, August 24, 2025. [https://doi.org/10.48550/arXiv.2505.15123](https://doi.org/10.48550/arXiv.2505.15123).
 
