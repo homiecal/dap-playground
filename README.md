@@ -51,7 +51,7 @@ Several aspects of this example are interesting:
 
 *Figure 3:* Interpretability map for ground truth "Left pleural effusion" and other textual descriptions ("right pleural effusion" to align with interpret map, morphological description of pleural effusion, unrelated anatomical references) note the minimal change across the interpretability map
 
-### Example 2: Multiple GT diseases (5), interpretability map dominated by single disease region
+### Example 2: Multiple GT diseases (7), interpretability map dominated by single disease region
 
 `image_id=101120174235725780234709445792984239056_2oib6d.png`
 
@@ -66,7 +66,7 @@ Several aspects of this example are interesting:
 
 *Figure 4:* Interpretability map for all ground truth findings
 
-### Example 3: Multiple GT diseases (7), interpretability map dominated by single disease region
+### Example 3: Multiple GT diseases (5), interpretability map dominated by single disease region
 
 `image_id=101126299944644944835561376898203180176_2_o5vjuy.png`
 
