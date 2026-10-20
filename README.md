@@ -1,6 +1,6 @@
 # Weakly Supervised Grounding: Initial Experiments
 
-**Code (all contained in a single notebook using Colab GPU): [multiple-disease-impact-on-interpretability.ipynb](multiple-disease-impact-on-interpretability.ipynb)**
+**Code (all contained in a single notebook using Colab GPU): [multiple-disease-impact-on-interpretability.ipynb](multiple-disease-impact-on-interpretability-VLM.ipynb)**
 
 ## 1. Background and Motivation
 
